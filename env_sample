@@ -1,2 +1,10 @@
-SECRETE_KEY='your secrete key'
-DEBUG=bool
+# DJANGO
+SECRET_KEY=django secret key
+DEBUG=leave-blank-if-want-to-debug-false
+
+# DATABASE
+POSTGRES_NAME=name db
+POSTGRES_USER=username
+POSTGRES_PASSWORD=password
+POSTGRES_HOST=host
+POSTGRES_PORT=port
